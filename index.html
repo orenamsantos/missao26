@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Africano - Desbloqueie seu tamanho real em 30 dias</title>
+    <meta name="description"
+        content="Ganhe de 3 a 8 cm de tamanho em apenas 30 dias com o Método Africano. Protocolo biomecânico personalizado que libera seu tamanho real bloqueado por má circulação.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Página de Apresentação -->
+    <main id="landing-page" class="landing-page">
+        <section class="hero-section">
+            <div class="hero-background"></div>
+            <div class="hero-line"></div>
+
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-title">
+                        <h1>
+                            <span class="title-white">MISSÃO</span>
+                            <span class="title-red">2026</span>
+                        </h1>
+                    </div>
+
+                    <div class="hero-subtitle">
+                        <p>O Brasil pode crescer de novo. E sim — isso é 100% possível em apenas 30 dias de mobilização.
+                        </p>
+                    </div>
+
+                    <div class="hero-description">
+                        <p class="description-main">
+                            Você foi enganado: o problema não é o povo, é o sistema que bloqueou o país.
+                            Não é falta de riqueza. Não é falta de talento. É corrupção, censura e interesses que
+                            travaram a nação..
+                        </p>
+                        <p class="description-secondary">
+                            A Missão 2026 desperta o verdadeiro poder do Brasil — com união, fé e coragem — para uma
+                            virada segura, rápida e definitiva. Sem manipulação, sem silêncio e sem submissão.
+                        </p>
+                    </div>
+
+                    <div class="hero-cta">
+                        <button id="start-quiz-btn" class="cta-button">
+                            <span>REVELAR POTENCIAL DE VOTO</span>
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </button>
+                        <span class="cta-subtitle">Diagnóstico patriótico em 2 minutos</span>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4–7 mi
+                            </div>
+                            <div class="stat-label">Votos decisivos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15 min</div>
+                            <div class="stat-label">Por dia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">30 dias</div>
+                            <div class="stat-label">Missão completa</div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="hero-footer">
+                    <p class="copyright">© 2025 Missão 2026. Todos os direitos reservados.</p>
+                    <p class="disclaimer">Este site não está afiliado a nenhuma empresa farmacêutica ou médica. Os
+                        resultados podem variar de pessoa para pessoa.</p>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <!-- Quiz -->
+    <div id="quiz-container" class="quiz-container hidden">
+        <div class="quiz-header">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <span class="question-counter" id="question-counter">1 de 8</span>
+        </div>
+
+        <div class="quiz-content">
+            <h2 class="quiz-question" id="quiz-question">Carregando pergunta...</h2>
+            <div class="quiz-options" id="quiz-options">
+                <!-- Opções serão inseridas dinamicamente -->
+            </div>
+        </div>
+
+        <div class="quiz-navigation">
+            <button id="prev-btn" class="nav-btn prev-btn hidden">Anterior</button>
+            <button id="next-btn" class="nav-btn next-btn">Próxima</button>
+        </div>
+    </div>
+
+    <!-- Resultado do Quiz -->
+    <div id="result-container" class="result-container hidden">
+        <div class="result-content">
+            <h2 class="result-title">Seu Diagnóstico Patriótico</h2>
+            <div class="result-score" id="result-score">
+                <!-- Score será inserido dinamicamente -->
+            </div>
+            <div class="result-description" id="result-description">
+                <!-- Descrição será inserida dinamicamente -->
+            </div>
+            <a href="https://pay.kiwify.com.br/QlbphdR" target="_blank" class="cta-button" id="restart-btn">
+                <span>ENTRAR NA MISSÃO 2026</span>
+            </a>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
